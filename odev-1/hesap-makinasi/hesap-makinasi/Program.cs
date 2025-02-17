@@ -2,6 +2,7 @@
 Console.WriteLine("Hello, World!");
 
 
+// GİRİLECEK SAYI BELİRTME
 
 Console.WriteLine("Birinci sayıyı giriniz:");
 double sayi1 = Convert.ToDouble(Console.ReadLine());
@@ -15,24 +16,39 @@ Console.WriteLine();
 
 double sonuc;
 
+
+//İŞLEM SEÇİMİ
+
 switch (islem)
 {
     case '+':
+        //SAYI1 SAYI2 TOPLAMA
         sonuc = sayi1 + sayi2;
+
+        //SAYI1 SAYI2 SONUC
         Console.WriteLine($"Sonuç: {sayi1} + {sayi2} = {sonuc}");
         break;
     case '-':
+        //SAYI1 SAYI2 ÇIKARTMA
         sonuc = sayi1 - sayi2;
+
+        //SAYI1 SAYI2 SONUC
         Console.WriteLine($"Sonuç: {sayi1} - {sayi2} = {sonuc}");
         break;
     case '*':
+        //SAYI1 SAYI2 CARPMA
         sonuc = sayi1 * sayi2;
+
+        //SAYI1 SAYI2 SONUC
         Console.WriteLine($"Sonuç: {sayi1} * {sayi2} = {sonuc}");
         break;
     case '/':
+        //SIFIRA EŞİT OLMAYACAK
         if (sayi2 != 0)
         {
             sonuc = sayi1 / sayi2;
+
+            //SAYI1 SAYI2 SONUC
             Console.WriteLine($"Sonuç: {sayi1} / {sayi2} = {sonuc}");
         }
         else

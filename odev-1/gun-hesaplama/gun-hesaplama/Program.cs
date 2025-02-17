@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-
+// SAYI İŞLEME
 Console.WriteLine("Lütfen 1 ile 7 arasında bir sayı giriniz:");
 int gunNumarasi = Convert.ToInt32(Console.ReadLine());
 
 string gunIsmi;
 
+// GÜN ÇIKTISI
 switch (gunNumarasi)
 {
     case 1:

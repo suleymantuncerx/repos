@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
+
+
+
+
+// ŞİFRE İSTENME İŞLEMİ
 Console.Write("Şifre girin: ");
 string password = Console.ReadLine();
 
@@ -8,10 +13,10 @@ bool hasUpper = false;
 bool hasSpecial = false;
 string specialChars = "@#$%";
 
-// Şifrenin uzunluğunu kontrol et
+// ŞİFRENİN UZUNLUĞUNU KONTROL EDİLİYOR
 if (password.Length >= 8)
 {
-    // Şifrenin içinde büyük harf ve özel karakter olup olmadığını kontrol et
+    // ŞİFRENİN İÇİNDE BÜYÜK HARF VE ÖZEL KARAKTER VAR MI KONTROL EDİYOR
     foreach (char c in password)
     {
         if (char.IsUpper(c))
@@ -24,7 +29,7 @@ if (password.Length >= 8)
         }
     }
 
-    // Tüm koşullar sağlanıyorsa
+    // HERŞEY SAĞLANIYORSA
 
     if (hasUpper && !hasSpecial)
     {
