@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35731.43 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sifre-olusturma", "sifre-olusturma\sifre-olusturma.csproj", "{4C626D7D-C3DA-4E04-8715-27C08312448C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C626D7D-C3DA-4E04-8715-27C08312448C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C626D7D-C3DA-4E04-8715-27C08312448C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C626D7D-C3DA-4E04-8715-27C08312448C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C626D7D-C3DA-4E04-8715-27C08312448C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BD833B0-EFD2-491F-8AB8-9943F6CD437B}
+	EndGlobalSection
+EndGlobal
